@@ -298,7 +298,7 @@ export const App = () => {
 
       <div className={appSt.bottomBtnThx}>
         {success && (
-          <ButtonMobile block view="primary" href="https://alfa.me/cbpartner" onClick={clickSubmit}>
+          <ButtonMobile block view="primary" href="alfabank://webFeature?type=recommendation&url=https%3A%2F%2Fweb.alfabank.ru%2Fpartner-offers" onClick={clickSubmit}>
             Забрать приз
           </ButtonMobile>
         )}
